@@ -1,0 +1,16 @@
+[project]
+name = "mil-traficos"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bs4>=0.0.2",
+    "dotenv>=0.9.9",
+    "folium>=0.20.0",
+    "jupyter>=1.1.1",
+    "marimo>=0.19.1",
+    "openai>=2.15.0",
+    "pandas>=2.3.3",
+    "requests>=2.32.5",
+]
