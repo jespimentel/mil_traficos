@@ -178,7 +178,11 @@ def _(mapa_final, mo):
         saida = mo.Html(mapa_final._repr_html_())
     else:
         saida = mo.md("Selecione outra opção.")
+    return (saida,)
 
+
+@app.cell
+def _(saida):
     saida
     return
 
