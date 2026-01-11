@@ -10,9 +10,6 @@ __marimo__/
 # Virtual environments
 .venv
 
-# Dados 
-dados/
-
 # Python (Arquivos compilados e cache)
 *.pyc
 *.pyo
