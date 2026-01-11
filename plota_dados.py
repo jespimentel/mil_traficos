@@ -29,7 +29,7 @@ def _():
 @app.cell
 def _(pd):
     # Lê o arquivo CSV
-    df = pd.read_csv('dados_filtrados.csv')
+    df = pd.read_csv('https://raw.githubusercontent.com/jespimentel/1000_traficos/refs/heads/main/dados.csv')
     return (df,)
 
 

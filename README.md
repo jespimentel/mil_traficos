@@ -25,4 +25,4 @@ Este projeto automatiza a coleta, a extração de informações, o georreferenci
 
 - Perceba que o código contido em `prepara_dados.ipynb` cria o arquivo "csv" necessário para alimentar a aplicação. Esta, por sua vez, consiste no *app view* nativo do `marimo`.
 
-- Para exportar a aplicação e publicá-la no GitHub Pages, usamos o comando `marimo export html-wasm plota_dados.py --no-show-code -o dist/index.html` e subimos o conteúdo da pasta `dist` em repositório autônomo, ao qual incluímos o arquivo `csv` gerado em `prepara_dados.ipynb`.
+- Para exportar a aplicação e publicá-la no GitHub Pages, usamos o comando `marimo export html-wasm plota_dados.py -o docs --mode run` e sincronizamos o conteúdo da pasta `docs`, a qual incluímos o arquivo `csv` gerado em `prepara_dados.ipynb`.
