@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.19.1"
-app = marimo.App(width="full", app_title="1000 tráficos", css_file="")
+app = marimo.App(width="medium", app_title="1000 tráficos", css_file="")
 
 
 @app.cell
@@ -178,11 +178,6 @@ def _(mapa_final, mo):
         saida = mo.Html(mapa_final._repr_html_())
     else:
         saida = mo.md("Selecione outra opção.")
-    return (saida,)
-
-
-@app.cell
-def _(saida):
     saida
     return
 
