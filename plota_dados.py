@@ -19,8 +19,8 @@ def _(mo):
 @app.cell
 def _():
     import marimo as mo
-    import pandas as pd
     import folium
+    import pandas as pd
     from folium.plugins import MarkerCluster
     from folium.plugins import HeatMap
     return HeatMap, MarkerCluster, folium, mo, pd
