@@ -1,14 +1,14 @@
 import marimo
 
 __generated_with = "0.19.1"
-app = marimo.App(width="medium")
+app = marimo.App(width="full", app_title="1000 tráficos", css_file="")
 
 
 @app.cell
 def _(mo):
     mo.md(r"""
-    ## Mil tráficos - Piracicaba (jan. 2025)
-    Pimentel
+    # 1000 tráficos - Piracicaba (jan. 2026)
+    ### Uma visão a partir das Sentenças de 1º Grau, por José Eduardo S. Pimentel
     - Construído exclusivamente com informações públicas.
     - Análise e georreferenciamento automatizados: **os dados podem conter erros**.
     - Feito para computador (no celular use o modo paisagem).
@@ -29,7 +29,7 @@ def _():
 @app.cell
 def _(pd):
     # Lê o arquivo CSV
-    df = pd.read_csv('dados.csv')
+    df = pd.read_csv('dados_filtrados.csv')
     return (df,)
 
 
